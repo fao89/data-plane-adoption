@@ -207,6 +207,9 @@
           ansiblePort: 22
           ansibleUser: root
           ansibleVars:
+            dataplane_os_net_config_routes: something
+            dataplane_os_net_config_iface: something
+            dataplane_public_iface: something
             service_net_map:
               nova_api_network: internal_api
               nova_libvirt_network: internal_api
